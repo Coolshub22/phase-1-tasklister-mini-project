@@ -11,7 +11,19 @@ body {
 }
 
 button {
-  font-size: 7px;
+  font-size: 12px; 
+  padding: 5px 10px; 
+  border: none;
+  border-radius: 3px;
+  background-color: #6200ea;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #3700b3; 
+  transform: scale(1.05); 
 }
 
 #main-content {
@@ -25,6 +37,8 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  max-width: 600px; 
+  margin: 20px auto;
 }
 
 #list {
@@ -34,4 +48,6 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  max-height: 300px; 
+  overflow-y: auto; 
 }
